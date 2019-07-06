@@ -95,6 +95,7 @@ alert("Level :" + clevel + "\n" + "เงินทอน :" + money);
 
 function getMoney(rlevel, clevel) {
 var money = 0;
+ rlevel=rlevel-clevel;   
 while (rlevel > 0) {
 
     if (clevel >= 0 && clevel < 50) {
